@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Nanum Myeongjo */
+  @font-face {
+    font-family: 'Nanum Myeongjo';
+    font-weight: 800;
+    font-style: normal;
+    src: url('/fonts/NanumMyeongjo/NanumMyeongjo-ExtraBold.woff2')
+      format('woff2');
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nanum Myeongjo';
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+    src: url('/fonts/NanumMyeongjo/NanumMyeongjo-Bold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Nanum Myeongjo';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/fonts/NanumMyeongjo/NanumMyeongjo-Regular.woff2') format('woff2');
+    font-display: block;
+  }
+
+  /* Space Grotesk */
+  @font-face {
+    font-family: 'Space Grotesk';
+    src:
+      url('/fonts/SpaceGrotesk.woff2') format('woff2 supports variations'),
+      url('/fonts/SpaceGrotesk.woff2') format('woff2-variations');
+    font-weight: 100 1000;
+    font-display: block;
+  }
+
+  body {
+    @apply bg-white font-sans text-xl text-black antialiased sm:text-2xl;
+  }
+
+  h2 {
+    @apply text-5xl font-bold leading-normal;
+  }
+}

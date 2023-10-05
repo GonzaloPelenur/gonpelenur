@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+  <title>gonpelenur</title>
+</svelte:head>
+
+<div class="p-d">
+    <main class="mx-auto max-w-2xl space-y-16">
+            <h1 class="text-4xl font-bold">gonpelenur</h1>
+            <p class="text-xl">Hi, I'm Gonzalo Pelenur. I'm a Harvard Computer Science student from Buenos Aires, Argentina.</p>
+    </main>
+</div>
