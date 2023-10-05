@@ -1,3 +1,6 @@
 <footer class="flex justify-center py-16">
-      <div class="text-sm">Gonzalo Pelenur</div>
+    <div class="border border-black p-3">
+      <div class="text-sm flex justify-center">Gonzalo Pelenur</div>
+      <div class="text-sm">me@gonpelenur.com</div>
+    </div>
   </footer>
